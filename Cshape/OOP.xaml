@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cshape.OOP"
+             Title="OOP">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Image x:Name ="ImageCar1" Source="dotnet_bot.png" WidthRequest="100" HorizontalOptions="Start"></Image>
+            <Image x:Name ="ImageCar2" Source="dotnet_bot.png" WidthRequest="100" HorizontalOptions="Start"></Image>
+            <Label x:Name="myLabel" Text="Click the Button" ></Label>
+            <Button Text="Click me" Clicked="Button_Clicked"></Button>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

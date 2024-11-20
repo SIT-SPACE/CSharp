@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cshape.NewPage1"
+             Title="NewPage1">
+    <VerticalStackLayout>
+        <Label x:Name="myLabel1" Text="Click the Button"></Label>
+        <Button Text="Click" Clicked="Button_Clicked1"></Button>
+    
+        <Label x:Name="myLabel2" Text="Click the Button"></Label>
+        <Button Text ="Click" Clicked="Button_Clicked2"></Button>
+    </VerticalStackLayout>
+    
+</ContentPage>
